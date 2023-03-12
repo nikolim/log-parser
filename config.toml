@@ -1,0 +1,15 @@
+title = "Pipeline log analyser"
+
+# Frequency in seconds to check for new runs
+RunFrequency = 60
+# Frequency in seconds to check for new repos
+RepoScanFrequency = 3600
+# Base URL for Github API (change for Github Enterprise)
+GithubBaseUrl = "https://api.github.com"
+
+# Postgres config
+PostgresHost = "127.0.0.1"
+PostgresPort = 5432
+PostgresUser = "test"
+PostgresPassword = "test"
+PostgresDb = "postgres"
